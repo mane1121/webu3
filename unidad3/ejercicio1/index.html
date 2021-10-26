@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <link rel="stylesheet" href="">
+
+</head>
+<body>
+    
+    <form action="">
+        <input type="text">
+        <button type="button" onclick="saludarConPeticion(); saludar();">Saludar</button>
+    </form>
+    <script>
+        //Mi código de javascript    
+        //Declarar variables
+        var numero=5;
+        var nombre="Juan Pérez";
+        let booleano=true;
+        var numero=9;
+        //let booleano=false;
+        /*alert(numero);
+        alert(nombre);
+        alert(booleano);*/
+        //saludarConPeticion();
+        function saludar(nombre){
+            alert("Buenos días " + nombre)
+        }
+
+        function saludarConPeticion(){
+            //saludar();
+            let nombre=prompt("Cómo te llamas?");
+            saludar(nombre);
+        }
+    </script>
+    <script src=""></script>
+</body>
+</html>
